@@ -71,7 +71,8 @@ Layout (adjust padding or button placement)
 
 If you’d like, you can include a screenshot here later:
 
-![Scoreboard Screenshot](./screenshot.png)
+![Image 26-10-2025 at 12 59](https://github.com/user-attachments/assets/9cbd5a22-8c7b-4314-bf7e-f2487fff0c48)
+
 
 📄 License
 
