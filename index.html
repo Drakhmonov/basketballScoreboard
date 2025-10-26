@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Scoreboard - 7 Segment Display</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="panel">
+      <h3>HOME</h3>
+      <p id="result-home">0</p>
+      <div>
+        <button onclick="homeOne()">+1</button>
+        <button onclick="homeTwo()">+2</button>
+        <button onclick="homeThree()">+3</button>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>GUEST</h3>
+      <p id="result-guest">0</p>
+      <div>
+        <button onclick="guestOne()">+1</button>
+        <button onclick="guestTwo()">+2</button>
+        <button onclick="guestThree()">+3</button>
+      </div>
+    </div>
+  </div>
+
+  <button id="refresh-el" onclick="refresh()">REFRESH</button>
+
+  <script src="index.js"></script>
+</body>
+</html>
